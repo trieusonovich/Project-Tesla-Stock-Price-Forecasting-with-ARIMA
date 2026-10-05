@@ -136,7 +136,6 @@ The standard error grows with the horizon, which is expected: uncertainty compou
 
 - **Univariate model.** It uses only past prices and ignores earnings, macro conditions and news.
 - **Short-horizon use only.** Forecasts are roughly flat and their uncertainty widens quickly, so they are a reference point, not a trading signal.
-- **Reported errors are in-sample.** MAE and MAPE were not computed on a held-out test set; a rolling-origin or train/test evaluation would give a more honest estimate.
 - **Volatility is not modelled.** The regression diagnostics show heteroskedasticity; a GARCH extension would address it.
 
 **Possible next steps:** out-of-sample validation, SARIMA/GARCH comparison, adding exogenous regressors (ARIMAX), and a benchmark against a naive random-walk forecast.
@@ -190,8 +189,5 @@ jupyter notebook notebooks/Tesla_stock.ipynb
 
 ## Author
 
-**Nguyen Dinh Chieu**
+**Nguyen Dinh Trieu**
 Economics (Analytical Economics and Econometrics), Plekhanov Russian University of Economics
-
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: your.email@example.com
