@@ -139,9 +139,6 @@ The standard error grows with the horizon, which is expected: uncertainty compou
 - **Volatility is not modelled.** The regression diagnostics show heteroskedasticity; a GARCH extension would address it.
 
 **Possible next steps:** out-of-sample validation, SARIMA/GARCH comparison, adding exogenous regressors (ARIMAX), and a benchmark against a naive random-walk forecast.
-
-## Author
-
 trieu31072004@gmail.com
 **Nguyen Dinh Trieu**
 Economics (Analytical Economics and Econometrics), Plekhanov Russian University of Economics
