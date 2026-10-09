@@ -16,9 +16,6 @@ A financial econometrics project that models and forecasts Tesla's monthly closi
 - [Key Results](#key-results)
 - [Forecast](#forecast)
 - [Limitations](#limitations)
-- [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-- [Tech Stack](#tech-stack)
 - [Author](#author)
 
 ---
