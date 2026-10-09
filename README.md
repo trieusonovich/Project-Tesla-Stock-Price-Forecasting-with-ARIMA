@@ -140,54 +140,9 @@ The standard error grows with the horizon, which is expected: uncertainty compou
 
 **Possible next steps:** out-of-sample validation, SARIMA/GARCH comparison, adding exogenous regressors (ARIMAX), and a benchmark against a naive random-walk forecast.
 
-## Repository Structure
-
-```
-.
-├── data/
-│   └── Tesla_stock_data_for_10_years.xlsx
-├── notebooks/
-│   └── Tesla_stock.ipynb
-├── report/
-│   └── Report_on_the_analysis_of_Tesla_s_stock_price.docx   # full write-up (in Russian)
-├── images/                                                   # exported charts
-└── README.md
-```
-
-## Getting Started
-
-**1. Clone the repository**
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-```
-
-**2. Install dependencies**
-
-```bash
-pip install pandas matplotlib statsmodels openpyxl jupyter
-```
-
-**3. Run the notebook**
-
-```bash
-jupyter notebook notebooks/Tesla_stock.ipynb
-```
-
-> The notebook was written in Google Colab and loads data from Google Drive. To run it locally, remove the `drive.mount(...)` lines and change the data path to:
->
-> ```python
-> df = pd.read_excel('data/Tesla_stock_data_for_10_years.xlsx')
-> ```
-
-## Tech Stack
-
-- **Language:** Python
-- **Libraries:** pandas, matplotlib, statsmodels
-- **Tools:** Jupyter / Google Colab, Gretl (regression diagnostics and KPSS), Microsoft Excel
-
 ## Author
+Nguyen Dinh Trieu Economics (Analytical Economics and Econometrics)
 
+trieu31072004@gmail.com
 **Nguyen Dinh Trieu**
 Economics (Analytical Economics and Econometrics), Plekhanov Russian University of Economics
