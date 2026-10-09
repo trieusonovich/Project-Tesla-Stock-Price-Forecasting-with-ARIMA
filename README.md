@@ -141,7 +141,6 @@ The standard error grows with the horizon, which is expected: uncertainty compou
 **Possible next steps:** out-of-sample validation, SARIMA/GARCH comparison, adding exogenous regressors (ARIMAX), and a benchmark against a naive random-walk forecast.
 
 ## Author
-Nguyen Dinh Trieu Economics (Analytical Economics and Econometrics)
 
 trieu31072004@gmail.com
 **Nguyen Dinh Trieu**
